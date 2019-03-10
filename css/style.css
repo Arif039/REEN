@@ -1,0 +1,387 @@
+
+*{
+
+}
+
+body{
+    margin:  0px 0px 10px 0px;
+    padding: 0;
+    width: 100%;
+}
+
+h1{}
+
+ /*header*/
+
+.container{
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+.col-1{
+    width: 80%;
+    float: left;
+}
+.col-1 ul{
+    padding: 0 10px;
+    margin: 0;
+}
+.col-1 ul li{
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: 600;
+}
+.col-1 ul li a{
+    margin-right: 8px;
+}
+.col-1 ul li a:hover{}
+
+.col-2{
+    width: 20%;
+    float: left;
+}
+.col-2 ul{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.col-2 ul li{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.col-2 ul li a{
+    color: #b18b8b;
+}
+.col-2 ul li a:hover{
+    color: black;
+}
+
+
+
+/*header*/
+
+
+/*menu start*/
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+.logo a{
+    text-decoration: none;
+}
+.logo h1{
+    padding: 0;
+    margin: 0;
+    font-size: 47px;
+}
+.arif{
+    display: block;
+    box-sizing: border-box;
+
+    margin: 13px 0px 4px 0px;
+    overflow: hidden;
+}
+
+.nav{
+    width: 80%;
+    float: left;
+    position: relative;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 11px 9px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: brown;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+.nav ul li a:hover{
+    color: white;
+    background: #666;
+}
+
+.megamenu{
+    position: absolute;
+}
+.megamenu ul{}
+.megamenu ul li{}
+.megamenu ul li a{}
+.megamenu ul li a:hover{}
+
+
+/*menu end*/
+
+/*banner start*/
+.banner{
+
+}
+.banner-content{
+     
+position: relative;
+}
+.overlay{
+    
+position: absolute;
+    
+width: 100%;
+    
+height: 100%;
+    
+top: 0;
+    
+left: 0;
+    
+background-color: rgba(0, 0, 0, 0.4);
+}
+.banner-content img{
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-text{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);text-align: center;}
+.banner-text h1{color: white;text-transform: uppercase;font-size: 40px;font-weight: 600;}
+.banner-text p{
+    color: white;
+    margin-bottom: 45px;
+    box-sizing: border-box;
+}
+.banner-text a{
+    text-decoration: none;
+    padding: 9px;
+    font-size: 20px;
+    color: wheat;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 25px;
+    border-color: white;
+    transition: all 0.4s;
+}
+.banner-text a:hover{
+    background: #d6baa7;
+    color: black;
+}
+
+/*<!-- beautiful start-->*/
+
+.b-content{}
+.beautiful{
+    text-align: center;
+    margin: 53px 226px 20px 226px;
+}
+.beautiful h1{
+    font-size: 45px;
+    margin: 0px 0px 0px 0px;
+}
+.beautiful p{}
+
+.idea{
+    width: 100%;
+    overflow: hidden;
+    margin: 44px 0px 0px 0px;
+}
+
+.col-3{
+    width: 33.33%;
+    float: left;
+}
+.love{
+    overflow: hidden;
+}
+.love span{
+    display: block;
+    width: 20%;
+    font-size: 43px;
+    color: #048e5f;
+    float: left;
+    margin: 0;
+    padding: 0px;
+}
+
+.Responsive{
+    width: 80%;
+    float: left;
+    /* display: block; */
+    ck; */
+}
+.Responsive h4{
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.Responsive p{
+    margin: 16px 50px 0px 0px;
+}
+
+
+/*<!-- beautiful start-->*/
+
+
+/*<!-- motel start-->*/
+
+.motel{
+    margin: 80px 0px 0px 0px;
+    background-color: #dae6ea47;
+}
+
+.motel-content{
+    margin-bottom: 38px;
+}
+.motel-nai{
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+}
+.motel-nai h1{
+    text-transform: capitalize;
+    font-size: 42px;
+    margin: 66px 0 0 0;
+}
+.motel-nai p{
+}
+
+.motel-img{
+    width: 50%;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+}
+.motel-img img{
+    width: 93%;
+    padding: 0;
+    margin: 0 0px 6px 0;
+}
+
+.pp{
+    width: 93%;
+    background: #f1eeee;
+    padding: 3px 0px 15px 0px;
+    margin-top: -10px;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+}
+
+.pp h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin: 13px 0;
+}
+.pp p{
+    text-align: center;
+    margin: 0;
+}
+
+
+.slide{
+    width: 100%;
+    overflow: hidden;
+    margin: 6px 0;
+    display: block;
+    box-sizing: border-box;
+}
+.col-4{
+    width: 25%;
+    margin: 33px 0;
+    float: left;
+}
+.col-4 img{
+    width: 93%;
+}
+
+
+
+/*<!-- motel end-->*/
+
+/*<!-- last content -->*/
+
+.last{}
+.container{}
+.work{
+    text-align: center;
+    margin: 40px auto;
+}
+.work h1{
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-bottom: 14px;
+}
+.work p{
+    margin: 12px 165px 31px 165px;
+    display: block;
+    box-sizing: border-box;
+}
+.work a{
+    text-decoration: none;
+    padding: 7px;
+    font-size: 20px;
+    color: #1f1e1e;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 25px;
+    border-color: #e80d0d;
+    transition: all 0.4s;
+    background: #1fd870;
+}
+.work a:hover{
+    background: #39a9cc;
+    color: white;
+}
+
+
+/*footer*/
+
+.footer{
+    background: black;
+}
+.container{}
+.col-5{
+    width: 25%;
+    color: white;
+    float: left;
+}
+.col-5 h4{}
+.col-5 h1{}
+.col-5 p{
+    margin: 0px 40px 0px 0px;
+}
+.more{text-decoration: none;color: aquamarine;}
+.more h5{
+    display: inline-block;
+    margin: 14px 8px;
+}
+.more span{margin: 13px 0;font-size: 10px;}
+.more a{
+    text-decoration: none;
+    color: lawngreen;
+    padding: 6px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 1, 1);
+}
+.more a:hover{
+    border: 2px solid;
+    background: white;
+    color: black;
+}
+
+
+
